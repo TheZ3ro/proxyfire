@@ -10,11 +10,11 @@ It can be used to add transparent proxy capabilities to iOS/macOS apps (and more
 
 ## Usage
 ```
-frida -l proxyfire.js -n <process_name>
+frida -l proxyfire.js -l unpinner.js -n <process_name>
 ```
 or
 ```
-frida -l proxyfire.js -p <process_id>
+frida -l proxyfire.js -l unpinner.js -p <process_id>
 ```
 
 ## Credits
